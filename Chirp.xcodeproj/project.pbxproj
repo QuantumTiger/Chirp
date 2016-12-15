@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2DC37C1E02FA6F002C8883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DC37B1E02FA6F002C8883 /* AppDelegate.swift */; };
+		3F2DC37E1E02FA6F002C8883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DC37D1E02FA6F002C8883 /* ViewController.swift */; };
+		3F2DC3811E02FA6F002C8883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DC37F1E02FA6F002C8883 /* Main.storyboard */; };
+		3F2DC3831E02FA6F002C8883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DC3821E02FA6F002C8883 /* Assets.xcassets */; };
+		3F2DC3861E02FA6F002C8883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2DC3841E02FA6F002C8883 /* LaunchScreen.storyboard */; };
+		3F2DC3911E02FA70002C8883 /* ChirpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DC3901E02FA70002C8883 /* ChirpTests.swift */; };
+		3F2DC39C1E02FA70002C8883 /* ChirpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DC39B1E02FA70002C8883 /* ChirpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2DC38D1E02FA6F002C8883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2DC3701E02FA6F002C8883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2DC3771E02FA6F002C8883;
+			remoteInfo = Chirp;
+		};
+		3F2DC3981E02FA70002C8883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2DC3701E02FA6F002C8883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2DC3771E02FA6F002C8883;
+			remoteInfo = Chirp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F2DC3781E02FA6F002C8883 /* Chirp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chirp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DC37B1E02FA6F002C8883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2DC37D1E02FA6F002C8883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F2DC3801E02FA6F002C8883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2DC3821E02FA6F002C8883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2DC3851E02FA6F002C8883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2DC3871E02FA6F002C8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2DC38C1E02FA6F002C8883 /* ChirpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChirpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DC3901E02FA70002C8883 /* ChirpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChirpTests.swift; sourceTree = "<group>"; };
+		3F2DC3921E02FA70002C8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2DC3971E02FA70002C8883 /* ChirpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChirpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2DC39B1E02FA70002C8883 /* ChirpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChirpUITests.swift; sourceTree = "<group>"; };
+		3F2DC39D1E02FA70002C8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2DC3751E02FA6F002C8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC3891E02FA6F002C8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC3941E02FA70002C8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2DC36F1E02FA6F002C8883 = {
+			isa = PBXGroup;
+			children = (
+				3F2DC37A1E02FA6F002C8883 /* Chirp */,
+				3F2DC38F1E02FA70002C8883 /* ChirpTests */,
+				3F2DC39A1E02FA70002C8883 /* ChirpUITests */,
+				3F2DC3791E02FA6F002C8883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2DC3791E02FA6F002C8883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DC3781E02FA6F002C8883 /* Chirp.app */,
+				3F2DC38C1E02FA6F002C8883 /* ChirpTests.xctest */,
+				3F2DC3971E02FA70002C8883 /* ChirpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2DC37A1E02FA6F002C8883 /* Chirp */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DC37B1E02FA6F002C8883 /* AppDelegate.swift */,
+				3F2DC37D1E02FA6F002C8883 /* ViewController.swift */,
+				3F2DC37F1E02FA6F002C8883 /* Main.storyboard */,
+				3F2DC3821E02FA6F002C8883 /* Assets.xcassets */,
+				3F2DC3841E02FA6F002C8883 /* LaunchScreen.storyboard */,
+				3F2DC3871E02FA6F002C8883 /* Info.plist */,
+			);
+			path = Chirp;
+			sourceTree = "<group>";
+		};
+		3F2DC38F1E02FA70002C8883 /* ChirpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DC3901E02FA70002C8883 /* ChirpTests.swift */,
+				3F2DC3921E02FA70002C8883 /* Info.plist */,
+			);
+			path = ChirpTests;
+			sourceTree = "<group>";
+		};
+		3F2DC39A1E02FA70002C8883 /* ChirpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DC39B1E02FA70002C8883 /* ChirpUITests.swift */,
+				3F2DC39D1E02FA70002C8883 /* Info.plist */,
+			);
+			path = ChirpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2DC3771E02FA6F002C8883 /* Chirp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DC3A01E02FA70002C8883 /* Build configuration list for PBXNativeTarget "Chirp" */;
+			buildPhases = (
+				3F2DC3741E02FA6F002C8883 /* Sources */,
+				3F2DC3751E02FA6F002C8883 /* Frameworks */,
+				3F2DC3761E02FA6F002C8883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chirp;
+			productName = Chirp;
+			productReference = 3F2DC3781E02FA6F002C8883 /* Chirp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2DC38B1E02FA6F002C8883 /* ChirpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DC3A31E02FA70002C8883 /* Build configuration list for PBXNativeTarget "ChirpTests" */;
+			buildPhases = (
+				3F2DC3881E02FA6F002C8883 /* Sources */,
+				3F2DC3891E02FA6F002C8883 /* Frameworks */,
+				3F2DC38A1E02FA6F002C8883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2DC38E1E02FA6F002C8883 /* PBXTargetDependency */,
+			);
+			name = ChirpTests;
+			productName = ChirpTests;
+			productReference = 3F2DC38C1E02FA6F002C8883 /* ChirpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F2DC3961E02FA70002C8883 /* ChirpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2DC3A61E02FA70002C8883 /* Build configuration list for PBXNativeTarget "ChirpUITests" */;
+			buildPhases = (
+				3F2DC3931E02FA70002C8883 /* Sources */,
+				3F2DC3941E02FA70002C8883 /* Frameworks */,
+				3F2DC3951E02FA70002C8883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2DC3991E02FA70002C8883 /* PBXTargetDependency */,
+			);
+			name = ChirpUITests;
+			productName = ChirpUITests;
+			productReference = 3F2DC3971E02FA70002C8883 /* ChirpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2DC3701E02FA6F002C8883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Quantum Apple";
+				TargetAttributes = {
+					3F2DC3771E02FA6F002C8883 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6235ST4D52;
+						ProvisioningStyle = Automatic;
+					};
+					3F2DC38B1E02FA6F002C8883 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6235ST4D52;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F2DC3771E02FA6F002C8883;
+					};
+					3F2DC3961E02FA70002C8883 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6235ST4D52;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F2DC3771E02FA6F002C8883;
+					};
+				};
+			};
+			buildConfigurationList = 3F2DC3731E02FA6F002C8883 /* Build configuration list for PBXProject "Chirp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2DC36F1E02FA6F002C8883;
+			productRefGroup = 3F2DC3791E02FA6F002C8883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2DC3771E02FA6F002C8883 /* Chirp */,
+				3F2DC38B1E02FA6F002C8883 /* ChirpTests */,
+				3F2DC3961E02FA70002C8883 /* ChirpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2DC3761E02FA6F002C8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DC3861E02FA6F002C8883 /* LaunchScreen.storyboard in Resources */,
+				3F2DC3831E02FA6F002C8883 /* Assets.xcassets in Resources */,
+				3F2DC3811E02FA6F002C8883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC38A1E02FA6F002C8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC3951E02FA70002C8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2DC3741E02FA6F002C8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DC37E1E02FA6F002C8883 /* ViewController.swift in Sources */,
+				3F2DC37C1E02FA6F002C8883 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC3881E02FA6F002C8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DC3911E02FA70002C8883 /* ChirpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2DC3931E02FA70002C8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2DC39C1E02FA70002C8883 /* ChirpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2DC38E1E02FA6F002C8883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2DC3771E02FA6F002C8883 /* Chirp */;
+			targetProxy = 3F2DC38D1E02FA6F002C8883 /* PBXContainerItemProxy */;
+		};
+		3F2DC3991E02FA70002C8883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2DC3771E02FA6F002C8883 /* Chirp */;
+			targetProxy = 3F2DC3981E02FA70002C8883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2DC37F1E02FA6F002C8883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2DC3801E02FA6F002C8883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2DC3841E02FA6F002C8883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2DC3851E02FA6F002C8883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2DC39E1E02FA70002C8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2DC39F1E02FA70002C8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2DC3A11E02FA70002C8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = Chirp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.Chirp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F2DC3A21E02FA70002C8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = Chirp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.Chirp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F2DC3A41E02FA70002C8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = ChirpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.ChirpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chirp.app/Chirp";
+			};
+			name = Debug;
+		};
+		3F2DC3A51E02FA70002C8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = ChirpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.ChirpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chirp.app/Chirp";
+			};
+			name = Release;
+		};
+		3F2DC3A71E02FA70002C8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = ChirpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.ChirpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chirp;
+			};
+			name = Debug;
+		};
+		3F2DC3A81E02FA70002C8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6235ST4D52;
+				INFOPLIST_FILE = ChirpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.ChirpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chirp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2DC3731E02FA6F002C8883 /* Build configuration list for PBXProject "Chirp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DC39E1E02FA70002C8883 /* Debug */,
+				3F2DC39F1E02FA70002C8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2DC3A01E02FA70002C8883 /* Build configuration list for PBXNativeTarget "Chirp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DC3A11E02FA70002C8883 /* Debug */,
+				3F2DC3A21E02FA70002C8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F2DC3A31E02FA70002C8883 /* Build configuration list for PBXNativeTarget "ChirpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DC3A41E02FA70002C8883 /* Debug */,
+				3F2DC3A51E02FA70002C8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F2DC3A61E02FA70002C8883 /* Build configuration list for PBXNativeTarget "ChirpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2DC3A71E02FA70002C8883 /* Debug */,
+				3F2DC3A81E02FA70002C8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2DC3701E02FA6F002C8883 /* Project object */;
+}
